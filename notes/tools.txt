@@ -1,0 +1,7 @@
+sccache
+
+mold
+
+bear
+compiledb
+compdb

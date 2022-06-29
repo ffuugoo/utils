@@ -1,0 +1,9 @@
+bison
+flex
+
+apr
+expat
+openssl
+pcre2
+
+perl-XML-Simple

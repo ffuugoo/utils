@@ -1,0 +1,45 @@
+{
+	"folders": [
+		{
+			"name": "nxlog",
+			"path": "nxlog",
+			"file_exclude_patterns": ["*.la", "*.lo"],
+			"folder_exclude_patterns": ["//.cache", "//rust", ".deps"],
+			"follow_symlinks": false,
+		},
+		{
+			"name": "nxlog-rust-modules",
+			"path": "nxlog/rust",
+			"folder_exclude_patterns": ["//.vscode", "//target"],
+			"follow_symlinks": false,
+		},
+		// {
+		// 	"name": "nxlog-addons",
+		// 	"path": "nxlog-addons",
+		// 	"folder_exclude_patterns": [".cache", "target"],
+		// 	"follow_symlinks": false,
+		// },
+		{
+			"name": "msazure",
+			"path": "nxlog-addons/msazure",
+			"folder_exclude_patterns": ["//target"],
+			"follow_symlinks": false,
+		},
+		{
+			"name": "nxutils",
+			"path": "nxlog-addons/rust/nxutils",
+			"folder_exclude_patterns": ["//target"],
+			"follow_symlinks": false,
+		}
+	],
+
+	"settings": {
+		"project_syntaxes": [
+			{ "syntax": "Old School Cool/C (Old School Cool)", "extensions": ["c", "h"] },
+		],
+
+		"LSP": {
+			"clangd": { "enabled": true },
+		}
+	}
+}
