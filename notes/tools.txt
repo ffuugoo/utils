@@ -5,3 +5,8 @@ mold
 bear
 compiledb
 compdb
+
+nodejs
+npm
+
+jre
