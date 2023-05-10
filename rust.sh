@@ -101,7 +101,7 @@ function setup-mold {
 }
 
 function setup-lld {
-	try-setul-ld lld
+	try-setup-ld lld
 }
 
 function try-setup-ld {
