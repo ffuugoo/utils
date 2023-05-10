@@ -5,7 +5,7 @@ set -euo pipefail
 
 declare python=(
 	${=cpp:+compiledb compdb}
-	${=qdrant:+pytest qdrant-client}
+	${=qdrant:+pytest requests qdrant-client}
 )
 
 
